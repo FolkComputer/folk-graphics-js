@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Notes:
+
+- [react-p5-wrapper](https://github.com/P5-wrapper/react) makes it possible to use P5 as an abstract rendering context & swap "thiings" in & out arbitrarily!
+- `Thiing` data structure
+    - `code` as literal string
+    - `folkflake` currently hardcoded as 
+
+![comparison of code with app, when switching line 30 in App.js](./.github/documenting-p5-thiing.gif))
+
 ## Available Scripts
 
 In the project directory, you can run:
