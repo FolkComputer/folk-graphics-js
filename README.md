@@ -5,9 +5,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Notes:
 
 - [react-p5-wrapper](https://github.com/P5-wrapper/react) makes it possible to use P5 as an abstract rendering context & swap "thiings" in & out arbitrarily!
-- `Thiing` data structure
-    - `code` as literal string
-    - `folkflake` currently hardcoded as 
+
+| field| required? | description | Center Align |
+| --- | - | - | - |
+`code` | **Y** | string (prefably a [template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals))
+`folkflake` | **Y** |a conceptual extension to [Discord & Twitter's `snowflake`](https://discord.com/developers/docs/reference#snowflakes)
+`position` | N | an optional 1,2, or 3-tuple (here, a [JS `Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)) corresponding to X/Y/Z in that order. without a positon a thing is just relative to its parent
+<!-- `code` | **Y** | string (prefably a [template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)) -->
 
 ![comparison of code with app, when switching line 30 in App.js](./.github/documenting-p5-thiing.gif))
 
@@ -20,6 +24,10 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+<details>
+<summary>
+other stuff from CRA scripts README
+</summary>
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -61,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+</details>
 
 ### Making a Progressive Web App
 
